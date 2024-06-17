@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salgaderias</title>
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="salgaderias.css">
+    
+</head>
+<body>
+
+  <section class="swiper mySwiper">
+
+    <div class="swiper-wrapper">
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="LL Salgaderia.png" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">LL Salgaderia</span>
+          <span class="card__name">Delivery</span>
+          <p class="card__text">Nossa salgaderia é conhecida por oferecer uma variedade deliciosa de salgados que encantam desde os pequenos até os grandes eventos. </p>
+          <a href="https://www.instagram.com/llsalgaderia/"><button class="card__btn">Entre em Contato</button></a>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="deliciascaseiras.png" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Delicias Caseiras</span>
+          <span class="card__name">Delivery</span>
+          <p class="card__text">Nossa salgaderia é conhecida por oferecer uma variedade deliciosa de salgados que encantam desde os pequenos até os grandes eventos. </p>
+          <a href="https://www.instagram.com/delicias.caseiras.salgados/"><button class="card__btn">Entre em Contato</button></a>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="salg mãe e filha.png" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Salgados Mãe e Filha</span>
+          <span class="card__name">Delivery</span>
+          <p class="card__text">Nossa salgaderia é conhecida por oferecer uma variedade deliciosa de salgados que encantam desde os pequenos até os grandes eventos. </p>
+          <a href="https://www.instagram.com/sal.gadosmaeefilha/"><button class="card__btn">Entre em Contato</button></a>
+        </div>
+      </div>
+
+      <div class="card swiper-slide">
+        <div class="card__image">
+          <img src="bom salgados foto atual.png" alt="card image">
+        </div>
+
+        <div class="card__content">
+          <span class="card__title">Bom Salgados</span>
+          <span class="card__name">Delivery</span>
+          <p class="card__text">Nossa salgaderia é conhecida por oferecer uma variedade deliciosa de salgados que encantam desde os pequenos até os grandes eventos. </p>
+          <a href="https://www.instagram.com/bom_salgadoss/"><button class="card__btn">Entre em Contato</button></a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+<!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 300,
+        modifier: 1,
+        slideShadows: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
+
+</body>
+</html>
